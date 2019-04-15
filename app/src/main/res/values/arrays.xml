@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name = "pref_time_entries">
+        <item>@string/pref_time_1m_label</item>
+        <item>@string/pref_time_2m_label</item>
+        <item>@string/pref_time_4m_label</item>
+        <item>@string/pref_time_6m_label</item>
+    </array>
+
+    <array name = "pref_time_entry_values">
+        <item>@string/pref_time_1m_value</item>
+        <item>@string/pref_time_2m_value</item>
+        <item>@string/pref_time_4m_value</item>
+        <item>@string/pref_time_6m_value</item>
+    </array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:srcCompat="@drawable/ic_speaker_notes_white_18dp"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NewsTitle"
+                android:textSize="12sp"
+                android:textAppearance="?attr/textAppearanceLargePopupMenu"
+                android:id="@+id/News_Time"
+                android:padding="10dp"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NewsTitle"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"
+            android:textAllCaps="true"
+            android:id="@+id/News_Title"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:src="@drawable/placeholder1"
+            android:id="@+id/News_Image"
+            android:contentDescription="@string/post_images" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

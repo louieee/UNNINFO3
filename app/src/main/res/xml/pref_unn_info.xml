@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_time_6m_value"
+        android:title="@string/pref_time_label"
+        android:entries="@array/pref_time_entries"
+        android:entryValues="@array/pref_time_entry_values"
+        android:key = "@string/pref_time_key"
+        />
+</PreferenceScreen>
